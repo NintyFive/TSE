@@ -1,80 +1,111 @@
-
-\begin{table}[]
-\caption{the statistics of experiment projects.}
-\label{tab:statistics}
-\begin{tabular}{llll}
+\begin{center}
+\begin{longtable}{l|l|l|l}
+\caption{the statistics of experiment projects.} \label{tab:statistics} \\
 \hline
 \multicolumn{1}{l|}{project name}           & \multicolumn{1}{l|}{number of prs} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}percentage of the prs\\  containing issue report ids\end{tabular}} & \multicolumn{1}{l}{\begin{tabular}[c]{@{}l@{}}median number of active \\ reviewers for each pr\end{tabular}} \\ \hline
-acemod/ace3                                 & 3625                               & 0.211862                                                                                                          & 64                                                                                                            \\
-adobe/brackets                              & 5275                               & 0.375924                                                                                                          & 52                                                                                                            \\
-akka/akka                                   & 7500                               & 0.312667                                                                                                          & 64                                                                                                            \\
-alphagov/govuk-puppet                       & 4523                               & 0.00818                                                                                                           & 70                                                                                                            \\
-angular/angular                             & 10214                              & 0.270315                                                                                                          & 189                                                                                                           \\
-ardupilot/ardupilot                         & 5800                               & 0.072586                                                                                                          & 90                                                                                                            \\
-aspnet/entityframework                      & 4450                               & 0.453483                                                                                                          & 48                                                                                                            \\
-aspnet/mvc                                  & 3423                               & 0.371312                                                                                                          & 49                                                                                                            \\
-atom/atom                                   & 4025                               & 0.340124                                                                                                          & 89                                                                                                            \\
-automattic/jetpack                          & 6075                               & 0.297778                                                                                                          & 103                                                                                                           \\
-azure/azure-content                         & 8772                               & 0.01653                                                                                                           & 376                                                                                                           \\
-cartodb/cartodb                             & 6300                               & 0.529365                                                                                                          & 43                                                                                                            \\
-cfpb/cfgov-refresh                          & 4150                               & 0.044819                                                                                                          & 39                                                                                                            \\
-chapel-lang/chapel                          & 9149                               & 0.09859                                                                                                           & 30                                                                                                            \\
-chef/chef                                   & 5474                               & 0.12057                                                                                                           & 112                                                                                                           \\
-cisco/openh264                              & 2475                               & 0.017778                                                                                                          & 18                                                                                                            \\
-cms-sw/cmsdist                              & 3850                               & 0.052468                                                                                                          & 45                                                                                                            \\
-department-of-veterans-affairs/vets-website & 7072                               & 0.271635                                                                                                          & 77                                                                                                            \\
-diaspora/diaspora                           & 3350                               & 0.264478                                                                                                          & 88                                                                                                            \\
-dynamods/dynamo                             & 6449                               & 0.106838                                                                                                          & 32                                                                                                            \\
-eclipse/che                                 & 5424                               & 0.530052                                                                                                          & 51                                                                                                            \\
-elastic/logstash                            & 5100                               & 0.221961                                                                                                          & 68                                                                                                            \\
-elgg/elgg                                   & 4375                               & 0.336457                                                                                                          & 26                                                                                                            \\
-emberjs/data                                & 3224                               & 0.200682                                                                                                          & 187                                                                                                           \\
-emberjs/ember.js                            & 7623                               & 0.20425                                                                                                           & 219                                                                                                           \\
-emberjs/website                             & 2975                               & 0.078992                                                                                                          & 63                                                                                                            \\
-facebook/react-native                       & 7325                               & 0.190034                                                                                                          & 420                                                                                                           \\
-galaxyproject/galaxy                        & 4550                               & 0.206593                                                                                                          & 44                                                                                                            \\
-gocd/gocd                                   & 2885                               & 0.115078                                                                                                          & 42                                                                                                            \\
-gradle/gradle                               & 4100                               & 0.26561                                                                                                           & 57                                                                                                            \\
-greenplum-db/gpdb                           & 5375                               & 0.048                                                                                                             & 109                                                                                                           \\
-grpc/grpc                                   & 9664                               & 0.212748                                                                                                          & 88                                                                                                            \\
-hashicorp/terraform                         & 8173                               & 0.299033                                                                                                          & 269                                                                                                           \\
-hazelcast/hazelcast                         & 8850                               & 0.311977                                                                                                          & 49                                                                                                            \\
-ipython/ipython                             & 5525                               & 0.338824                                                                                                          & 92                                                                                                            \\
-jabref/jabref                               & 2475                               & 0.309091                                                                                                          & 21                                                                                                            \\
-jquery/jquery                               & 2375                               & 0.145263                                                                                                          & 66                                                                                                            \\
-jquery/jquery-mobile                        & 2150                               & 0.313023                                                                                                          & 69                                                                                                            \\
-ksp-ckan/netkan                             & 5389                               & 0.05771                                                                                                           & 50                                                                                                            \\
-learningequality/ka-lite                    & 2650                               & 0.386415                                                                                                          & 25                                                                                                            \\
-mamedev/mame                                & 3699                               & 0.004866                                                                                                          & 59                                                                                                            \\
-mantidproject/mantid                        & 6550                               & 0.645802                                                                                                          & 47                                                                                                            \\
-mapbox/mapbox-gl-native                     & 6321                               & 0.461478                                                                                                          & 59                                                                                                            \\
-meteor/meteor                               & 2399                               & 0.300542                                                                                                          & 105                                                                                                           \\
-microsoft/typescript                        & 8498                               & 0.522358                                                                                                          & 121                                                                                                           \\
-microsoft/vscode                            & 4124                               & 0.524491                                                                                                          & 62                                                                                                            \\
-microsoft/vsts-tasks                        & 5650                               & 0.033097                                                                                                          & 109                                                                                                           \\
-minetest/minetest                           & 3950                               & 0.215443                                                                                                          & 132                                                                                                           \\
-molgenis/molgenis                           & 5200                               & 0.045769                                                                                                          & 18                                                                                                            \\
-mozilla/addons-server                       & 5900                               & 0.382542                                                                                                          & 48                                                                                                            \\
-mozilla/fxa-content-server                  & 3299                               & 0.59806                                                                                                           & 29                                                                                                            \\
-nextcloud/server                            & 6220                               & 0.253537                                                                                                          & 96                                                                                                            \\
-openlayers/ol3                              & 5525                               & 0.211584                                                                                                          & 54                                                                                                            \\
-openra/openra                               & 6211                               & 0.333924                                                                                                          & 75                                                                                                            \\
-palantir/atlasdb                            & 2675                               & 0.131215                                                                                                          & 41                                                                                                            \\
-pingcap/tidb                                & 6297                               & 0.161505                                                                                                          & 40                                                                                                            \\
-rapid7/metasploit-framework                 & 200                                & 0.11                                                                                                              & 20                                                                                                            \\
-realm/realm-java                            & 2598                               & 0.251347                                                                                                          & 32                                                                                                            \\
-RIOT-OS/RIOT                                & 8000                               & 0.155375                                                                                                          & 70                                                                                                            \\
-SatelliteQE/robottelo                       & 4100                               & 0.225122                                                                                                          & 23                                                                                                            \\
-scikit-learn/scikit-learn                   & 6324                               & 0.399905                                                                                                          & 102                                                                                                           \\
-scipy/scipy                                 & 4175                               & 0.316407                                                                                                          & 67                                                                                                            \\
-SciTools/iris                               & 2200                               & 0.14                                                                                                              & 25                                                                                                            \\
-silverstripe/silverstripe-framework         & 5750                               & 0.177913                                                                                                          & 80                                                                                                            \\
-spree/spree                                 & 5448                               & 0.126652                                                                                                          & 100                                                                                                           \\
-vmware/vic                                  & 3750                               & 0.4944                                                                                                            & 34                                                                                                            \\
-wordpress-mobile/WordPress-iOS              & 5496                               & 0.594432                                                                                                          & 34                                                                                                            \\
-Yoast/wordpress-seo                         & 3200                               & 0.540625                                                                                                          & 27                                                                                                            \\
-youtube/vitess                              & 3648                               & 0.062226                                                                                                          & 29                                                                                                            \\
-zooniverse/Panoptes-Front-End               & 2625                               & 0.398476                                                                                                          & 32                                                                                                            \\ 
-zurb\_foundation-sites & 3799 & 0.239273 & 92                                                                                       \\ \hline 
-\end{tabular}
-\end{table}
+\endfirsthead
+
+\multicolumn{3}{c}%
+{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\
+\hline
+\multicolumn{1}{l|}{project name}           & \multicolumn{1}{l|}{number of prs} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}percentage of the prs\\  containing issue report ids\end{tabular}} & \multicolumn{1}{l}{\begin{tabular}[c]{@{}l@{}}median number of active \\ reviewers for each pr\end{tabular}} \\ \hline
+%\begin{longtable}[]
+%\begin{longtable}{llll}
+%\caption{the statistics of experiment projects.}
+%\label{tab:statistics}
+%\hline
+%\multicolumn{1}{l|}{project name}           & \multicolumn{1}{l|}{number of prs} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}percentage of the prs\\  containing issue report ids\end{tabular}} & \multicolumn{1}{l}{\begin{tabular}[c]{@{}l@{}}median number of active \\ reviewers for each pr\end{tabular}} \\ %\hline
+	
+\endhead
+
+\hline \multicolumn{3}{|r|}{{Continued on next page}} \\ \hline
+\endfoot
+
+\hline \hline
+\endlastfoot
+
+acemod\_ACE3                                 & 3625     & 0.211862069     & 64  \\
+adobe\_brackets                              & 5275     & 0.375924171     & 52  \\
+akka\_akka                                   & 7500     & 0.312666667     & 64  \\
+alphagov\_govuk-puppet                       & 4523     & 0.008180411     & 70  \\
+angular\_angular                             & 10214    & 0.270315254     & 189 \\
+ArduPilot\_ardupilot                         & 5800     & 0.072586207     & 90  \\
+aspnet\_EntityFramework                      & 4450     & 0.453483146     & 48  \\
+aspnet\_Mvc                                  & 3423     & 0.371311715     & 49  \\
+atom\_atom                                   & 4025     & 0.340124224     & 89  \\
+Automattic\_jetpack                          & 6075     & 0.297777778     & 103 \\
+Azure\_azure-content                         & 8772     & 0.016529868     & 376 \\
+CartoDB\_cartodb                             & 6300     & 0.529365079     & 43  \\
+cfpb\_cfgov-refresh                          & 4150     & 0.044819277     & 39  \\
+chapel-lang\_chapel                          & 9149     & 0.09859001      & 30  \\
+chef\_chef                                   & 5474     & 0.120569967     & 112 \\
+cisco\_openh264                              & 2475     & 0.017777778     & 18  \\
+cms-sw\_cmsdist                              & 3850     & 0.052467532     & 45  \\
+department-of-veterans-affairs\_vets-website & 7072     & 0.271634615     & 77  \\
+diaspora\_diaspora                           & 3350     & 0.264477612     & 88  \\
+docker\_docker                               & 19166    & 0.26343525      & 491 \\
+DynamoDS\_Dynamo                             & 6449     & 0.106838269     & 32  \\
+eclipse\_che                                 & 5424     & 0.530051622     & 51  \\
+EFForg\_https-everywhere                     & 13650    & 0.10967033      & 50  \\
+elastic\_kibana                              & 13600    & 0.265735294     & 118 \\
+elastic\_logstash                            & 5100     & 0.221960784     & 68  \\
+Elgg\_Elgg                                   & 4375     & 0.336457143     & 26  \\
+emberjs\_data                                & 3224     & 0.200682382     & 187 \\
+emberjs\_ember.js                            & 7623     & 0.204250295     & 219 \\
+emberjs\_website                             & 2975     & 0.078991597     & 63  \\
+facebook\_react-native                       & 7325     & 0.19003413      & 420 \\
+galaxyproject\_galaxy                        & 4550     & 0.206593407     & 44  \\
+gocd\_gocd                                   & 2885     & 0.11507799      & 42  \\
+gradle\_gradle                               & 4100     & 0.265609756     & 57  \\
+greenplum-db\_gpdb                           & 5375     & 0.048           & 109 \\
+grpc\_grpc                                   & 9664     & 0.212748344     & 88  \\
+guardian\_frontend                           & 19149    & 0.016554389     & 112 \\
+hashicorp\_terraform                         & 8173     & 0.299033403     & 269 \\
+hazelcast\_hazelcast                         & 8850     & 0.311977401     & 49  \\
+ipython\_ipython                             & 5525     & 0.338823529     & 92  \\
+JabRef\_jabref                               & 2475     & 0.309090909     & 21  \\
+jquery\_jquery                               & 2375     & 0.145263158     & 66  \\
+jquery\_jquery-mobile                        & 2150     & 0.313023256     & 69  \\
+JuliaLang\_julia                             & 14221    & 0.285352647     & 218 \\
+KSP-CKAN\_NetKAN                             & 5389     & 0.05771015      & 50  \\
+learningequality\_ka-lite                    & 2650     & 0.386415094     & 25  \\
+mamedev\_mame                                & 3699     & 0.00486618      & 59  \\
+mantidproject\_mantid                        & 6550     & 0.645801527     & 47  \\
+mapbox\_mapbox-gl-native                     & 6321     & 0.461477614     & 59  \\
+meteor\_meteor                               & 2399     & 0.300541892     & 105 \\
+Microsoft\_TypeScript                        & 8498     & 0.522358202     & 121 \\
+Microsoft\_vscode                            & 4124     & 0.524490786     & 62  \\
+Microsoft\_vsts-tasks                        & 5650     & 0.033097345     & 109 \\
+minetest\_minetest                           & 3950     & 0.215443038     & 132 \\
+molgenis\_molgenis                           & 5200     & 0.045769231     & 18  \\
+mozilla\_addons-server                       & 5900     & 0.382542373     & 48  \\
+mozilla\_fxa-content-server                  & 3299     & 0.598060018     & 29  \\
+neo4j\_neo4j                                 & 9600     & 0.026145833     & 61  \\
+nextcloud\_server                            & 6220     & 0.253536977     & 96  \\
+ocaml\_opam-repository                       & 12199    & 0.046397246     & 88  \\
+odoo\_odoo                                   & 16690    & 0.069562612     & 290 \\
+openlayers\_ol3                              & 5525     & 0.21158371      & 54  \\
+OpenRA\_OpenRA                               & 6211     & 0.333923684     & 75  \\
+palantir\_atlasdb                            & 2675     & 0.131214953     & 41  \\
+pingcap\_tidb                                & 6297     & 0.161505479     & 40  \\
+PrestaShop\_PrestaShop                       & 9545     & 0.024096386     & 92  \\
+rapid7\_metasploit-framework                 & 200      & 0.11            & 20  \\
+realm\_realm-java                            & 2598     & 0.25134719      & 32  \\
+RIOT-OS\_RIOT                                & 8000     & 0.155375        & 70  \\
+SatelliteQE\_robottelo                       & 4100     & 0.225121951     & 23  \\
+scikit-learn\_scikit-learn                   & 6324     & 0.399905123     & 102 \\
+scipy\_scipy                                 & 4175     & 0.316407186     & 67  \\
+SciTools\_iris                               & 2200     & 0.14            & 25  \\
+silverstripe\_silverstripe-framework         & 5750     & 0.177913043     & 80  \\
+spree\_spree                                 & 5448     & 0.126651982     & 100 \\
+vmware\_vic                                  & 3750     & 0.4944          & 34  \\
+wordpress-mobile\_WordPress-iOS              & 5496     & 0.594432314     & 34  \\
+xbmc\_xbmc                                   & 14275    & 0.007845884     & 273 \\
+Yoast\_wordpress-seo                         & 3200     & 0.540625        & 27  \\
+youtube\_vitess                              & 3648     & 0.062225877     & 29  \\
+zooniverse\_Panoptes-Front-End               & 2625     & 0.39847619      & 32  \\
+zurb\_foundation-sites                       & 3799     & 0.239273493     & 92 \\
+%\hline 
+\end{longtable}
+\end{center}
+%\end{longtable}
